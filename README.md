@@ -28,6 +28,8 @@
     |-- tailwind.config.js
     |-- nuxt.config.js
 
+Untuk login bisa menggunakan apa saja selama memenuhi Validasi Username (tidak boleh kosong) dan Password (Harus 3 karakter dengan uppercase, lowercase, dan number)
+
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
