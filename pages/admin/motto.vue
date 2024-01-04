@@ -23,7 +23,7 @@
               <h2 class="text-xl font-semibold mb-2">Motto List</h2>
               <ul>
                 <li v-for="(mottoItem, index) in mottoData" :key="index" class="mb-2 bg-gray-100 p-3 rounded-md">
-                  <span class="text-lg font-semibold">{{ mottoItem.motto }}</span>
+                  <span class="text-md font-medium">{{ mottoItem.motto }}</span>
                   <button @click="deleteMotto(index)" class="ml-2 text-red-500">Delete</button>
                 </li>
               </ul>
