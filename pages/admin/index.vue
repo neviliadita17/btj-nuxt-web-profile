@@ -9,23 +9,24 @@
 
           <!-- Statistics Section -->
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div class="bg-blue-500 p-4 rounded-md text-white">
-              <h2 class="text-xl font-semibold mb-2">Total Projects</h2>
-              <p class="text-3xl font-bold">25</p>
+            <div class="bg-primary p-4 rounded-md text-white">
+              <h2 class="text-xl font-medium mb-2">Total Projects</h2>
+              <p class="text-3xl font-medium">25</p>
             </div>
-            <div class="bg-green-500 p-4 rounded-md text-white">
-              <h2 class="text-xl font-semibold mb-2">Completed Projects</h2>
-              <p class="text-3xl font-bold">20</p>
+            <div class="bg-secondary p-4 rounded-md text-white">
+              <h2 class="text-xl font-medium mb-2">Completed Projects</h2>
+              <p class="text-3xl font-medium">20</p>
             </div>
-            <div class="bg-yellow-500 p-4 rounded-md text-white">
-              <h2 class="text-xl font-semibold mb-2">Ongoing Projects</h2>
-              <p class="text-3xl font-bold">5</p>
+            <div class="bg-secondary-50 p-4 rounded-md text-white">
+              <h2 class="text-xl font-medium mb-2">Ongoing Projects</h2>
+              <p class="text-3xl font-medium">5</p>
             </div>
-            <div class="bg-red-500 p-4 rounded-md text-white">
-              <h2 class="text-xl font-semibold mb-2">Pending Projects</h2>
-              <p class="text-3xl font-bold">2</p>
+            <div class="bg-muted p-4 rounded-md text-white">
+              <h2 class="text-xl font-medium mb-2">Pending Projects</h2>
+              <p class="text-3xl font-medium">2</p>
             </div>
           </div>
+
 
           <!-- Recent Projects Section -->
           <div class="mt-8">
