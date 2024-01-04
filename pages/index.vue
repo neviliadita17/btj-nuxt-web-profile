@@ -2,7 +2,7 @@
   <div class="flex flex-col justify-center bg-white rounded-xl w-full">
     <!-- Bio Section -->
     <section class="relative">
-      <div class="grid grid-cols-1 md:grid-cols-2 w-full bg-cover bg-center"  style="background: linear-gradient(317deg, rgb(255,114,92) 36%, rgb(55,90,100) 36%);">
+      <div class="grid grid-cols-1 md:grid-cols-2 w-full bg-cover bg-center" :style="{ 'background-image': 'url(\'/bg-about-me.png\')' }">
         
         <!-- Bagian Kiri (Foto Profil) -->
         <div class="md:flex md:items-center">

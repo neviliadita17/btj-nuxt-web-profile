@@ -11,13 +11,6 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  head: {
-    head: {
-      link: [
-        { rel: 'icon', type: 'image/png', href: '/favicon.png' },
-      ],
-    },
-  },
   
   // router: {
   //   base: '/',
@@ -29,23 +22,23 @@ export default defineNuxtConfig({
   //     });
   //   },
   // },
-  router: {
-    linkActiveClass: 'active',
-    extendRoutes(routes, resolve) {
-      routes.push(
-        {
-          path: '/admin/about-me',
-          component: resolve(__dirname, 'pages/admin/about-me.vue'),
-        },
-        {
-          path: '/admin/edu-work',
-          component: resolve(__dirname, 'pages/admin/edu-work.vue'),
-        },
-        {
-          path: '/admin/motto',
-          component: resolve(__dirname, 'pages/admin/motto.vue'),
-        }
-      );
-    },
-  },
+  // router: {
+  //   linkActiveClass: 'active',
+  //   extendRoutes(routes, resolve) {
+  //     routes.push(
+  //       {
+  //         path: '/admin/about-me',
+  //         component: resolve(__dirname, 'pages/admin/about-me.vue'),
+  //       },
+  //       {
+  //         path: '/admin/edu-work',
+  //         component: resolve(__dirname, 'pages/admin/edu-work.vue'),
+  //       },
+  //       {
+  //         path: '/admin/motto',
+  //         component: resolve(__dirname, 'pages/admin/motto.vue'),
+  //       }
+  //     );
+  //   },
+  // },
 })
