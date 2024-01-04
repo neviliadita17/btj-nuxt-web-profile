@@ -149,8 +149,11 @@ export default {
 }
 </script>
 
-<style scoped>
-/* Your page-specific styles go here */
+<style>
+h {
+  font-family: 'FarAwayGalaxy', sans-serif;
+}
 </style>
+
 
 
