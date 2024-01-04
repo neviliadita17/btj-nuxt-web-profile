@@ -1,4 +1,32 @@
 # Nuxt 3 Minimal Starter
+    btj-nuxt-web-profile1/
+    |-- assets/
+    |   |-- css/
+    |       |-- main.css
+    |   |-- img/
+    |       |-- 6333043.jpg
+    |       |-- bg-about-me.png
+    |       |-- foto__1___1_-removebg-preview.png
+    |-- components/
+    |   |-- AppHeader.vue
+    |   |-- AppFooter.vue
+    |   |-- AppSidebar.vue
+    |   |-- AppMain.vue
+    |-- layouts/
+    |   |-- default.vue
+    |   |-- AdminLayout.vue
+    |-- pages/
+    |   |-- admin/
+    |       |-- index.vue
+    |       |-- about-me.vue
+    |       |-- edu-work.vue
+    |       |-- motto.vue
+    |   |-- index.vue
+    |   |-- login.vue
+    |   |-- public/
+    |       |-- bg-about-me.png
+    |-- tailwind.config.js
+    |-- nuxt.config.js
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
